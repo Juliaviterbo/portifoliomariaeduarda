@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Maria Eduarda De Almeida</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Serif", "Arial Black", sans-serif;
+      background-color: #f3e7dd;
+      color: #4b2e2e;
+    }
+    header {
+      background-color: #7b4f3c;
+      padding: 30px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #fff;
+      font-family: "Arial Black", sans-serif;
+      font-size: 2.5em;
+    }
+    nav {
+      background-color: #a6785a;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-family: "Arial Black", sans-serif;
+    }
+    .container {
+      padding: 30px;
+    }
+    .projetos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    .projeto {
+      background-color: #d6b8a1;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .projeto img, .projeto video, .projeto embed {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #7b4f3c;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Maria Eduarda De Almeida</h1>
+    <p>Design Gráfica</p>
+  </header>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <div class="container">
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Sou Design Gráfica apaixonada por criar peças visuais impactantes e funcionais. Aqui você pode conferir alguns dos meus projetos mais recentes.</p>
+    </section>
+    <section id="projetos">
+      <h2>Meus Projetos</h2>
+      <div class="projetos">
+        <div class="projeto">
+          <img src="/mnt/data/WhatsApp Image 2025-06-29 at 20.02.47.jpeg" alt="Projeto Café Tudo">
+          <p>Café Tudo - Identidade Visual</p>
+        </div>
+        <div class="projeto">
+          <img src="/mnt/data/WhatsApp Image 2025-06-29 at 20.02.30.jpeg" alt="Projeto Guitarra">
+          <p>Guitarra - Design Criativo</p>
+        </div>
+        <div class="projeto">
+          <embed src="/mnt/data/avatar maria.pdf" type="application/pdf" width="100%" height="300px">
+          <p>Avatar Maria - Design Gráfico</p>
+        </div>
+        <div class="projeto">
+          <embed src="/mnt/data/cafe tudo.pdf" type="application/pdf" width="100%" height="300px">
+          <p>Café Tudo - Material Apresentação</p>
+        </div>
+        <div class="projeto">
+          <embed src="/mnt/data/guitara.pdf" type="application/pdf" width="100%" height="300px">
+          <p>Guitarra - Material Visual</p>
+        </div>
+        <div class="projeto">
+          <embed src="/mnt/data/MINI MANUAL.pdf" type="application/pdf" width="100%" height="300px">
+          <p>Mini Manual - Identidade Visual</p>
+        </div>
+        <div class="projeto">
+          <video controls>
+            <source src="/mnt/data/WhatsApp Video 2025-06-30 at 11.09.02.mp4" type="video/mp4">
+            Seu navegador não suporta vídeo.
+          </video>
+          <p>Vídeo Projeto 1</p>
+        </div>
+        <div class="projeto">
+          <video controls>
+            <source src="/mnt/data/WhatsApp Video 2025-06-29 at 20.02.23.mp4" type="video/mp4">
+            Seu navegador não suporta vídeo.
+          </video>
+          <p>Vídeo Projeto 2</p>
+        </div>
+      </div>
+    </section>
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Email: maria.eduarda@example.com</p>
+      <p>Instagram: @mariaeduarda.design</p>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2025 Maria Eduarda De Almeida. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
